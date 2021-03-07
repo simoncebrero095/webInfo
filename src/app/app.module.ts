@@ -32,7 +32,6 @@ import { Grafica1Component } from './pages/grafica1/grafica1.component';
     AppRoutingModule,
 
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
