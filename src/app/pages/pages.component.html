@@ -1,0 +1,32 @@
+<div id="main-wrapper">
+
+  <app-header></app-header>
+  <app-sidebar></app-sidebar>
+
+    <div class="page-wrapper">
+        <div class="container-fluid">
+
+          <!-- breadcrumbs -->
+<app-breadcrumbs>
+  </app-breadcrumbs>
+           <!-- Mi sistema de rutas -->
+           <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <router-outlet></router-outlet>
+                    </div>
+                </div>
+            </div>
+        </div>
+<footer class="footer">
+          © 2021 Electricista Matriculado Malagueño
+</footer>
+
+
+
+    </div>
+
+
+</div>
+</div>
