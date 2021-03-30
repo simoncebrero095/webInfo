@@ -10,14 +10,14 @@ import { RouterModule } from '@angular/router';
 @NgModule({
   declarations: [
     DashboardComponent,
-    ProgressComponent,
     Grafica1Component,
+    ProgressComponent,
     PagesComponent,
   ],
   exports: [
     DashboardComponent,
-    ProgressComponent,
     Grafica1Component,
+    ProgressComponent,
     PagesComponent,
   ],
   imports: [
